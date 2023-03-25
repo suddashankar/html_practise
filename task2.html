@@ -1,0 +1,281 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    .nav-item{ 
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+    }
+    .centered{
+      position: relative;
+  bottom: 8px;
+  left: 500px;
+  top: 350px;
+  color:white;
+    }
+    .h3,p{
+      font-size: 20px;
+    }
+    .card{
+      font-size: 22px;
+    }
+    .green{
+      color: green;
+    }
+    .blue{
+      color: rgb(17, 211, 211);
+    }
+    .sky{
+      color: rgb(17, 211, 211);
+    }
+    .service{
+      color: rgb(17, 211, 211);
+      font-size: 30px;
+    }
+    .card-title{
+      color: rgb(17, 211, 211);
+      font-size: 30px;
+
+    }
+    
+  </style>
+<body>
+    <nav class="navbar bg-white">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="container-xl">
+            <img src="https://media.glassdoor.com/sqll/726915/ies-engineers-squarelogo-1463052674519.png"  alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+          </div>
+          </a>
+          <div class="col-9">
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: #000;" >Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #000;">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #000;">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">Carreers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">Contact</a>
+              </li>
+          </ul>
+        </div>
+          <ul>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="light" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+            <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        </ul>
+        </div>
+      </nav>
+      <div class="imageContainer">
+
+      <img style="display: block;-webkit-user-select: none;margin: auto;cursor: zoom-in;background-color: hsl(0, 0%, 90%);transition: background-color 300ms;" src="https://t4.ftcdn.net/jpg/01/10/42/01/360_F_110420101_N63AR5SmjAyMeum9c2fHM0azkP89wv39.jpg" width="1400" height="300"><br>
+      <div class="centered"><h3> Engineering and Construction</h3>
+      <p class="green">Services /Engineering and Construction</div>
+    </div>
+    <div class="container">
+    <div class="d-flex align-items-center">
+      <div class="flex-shrink-0"><br>
+        <img src="https://static.wixstatic.com/media/4c1a6f_d07b6a45d51b423aa700dbebeac39d55~mv2.jpg/v1/fill/w_431,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Picture1.jpg" width="500" height="400"> 
+      </div>
+      <div class="flex-grow-1 ms-3">
+        <h3 class="blue">Why is This important?</h3>
+        <p class="fs-4">Ensuring your projects deliver the required business results, meet all the regulatory and code requirements and are completed in a safe, efficient, cost effective and timely manner is critical to a successful business</p>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+
+  <div class="d-flex align-items-center">
+    <div class="flex-grow-1 ms-3"><br><br><br>
+      <h3 class="sky">Why Choose IES?</h3>
+      <p class="fs-4">IES prides itself on having engineers with varied insustrial background and technical expertise, most of whom have signivicant experience with operating companies. we work dide by dide with our ecnironmental and industrial safety staff to ensure are designs address all regulatory and safety concerns. this relationship and wzperience combined with our strong technical capabilities enables IES to successfuly execute multi-discplinary projects in a cost-effective and practical manner.</p>
+      <p class="fs-4">IES offers comprehensive pollution abatement design, process and facility design, design/bulid/construction, and technical consulting services to a broad array of industrial clients. we frequently deliver profects on a turnkey basis but are flecible in our project delivey approach. IES can bundle and unbundle our services to customize the project execution method to best fit our client's needs.</p>
+      </div><br><br>
+    <div class="flex-shrink-0">
+      <img ;" src="https://www.process-heating.com/ext/resources/issues2/2020/March/HeatRecovery/1-PH0320-Durr-Energy-Recovery-Options-Oxidation-Systems-MercedesVanChar.jpg?1584128113" width="650" height="450"> 
+    </div>
+  </div>
+  </div>
+  <div class="container text-center">
+    <div class="row row-cols-4">
+      <div class="col"><h5 class="service">SERVICE LEADER</h5></div>
+      <div class="col"><div class="d-flex  " style="height: 70px;">
+        <div class="vr "></div>
+      </div></div>
+      <div class="col"><div class="fw-bold"><h3>James Rutenbar, PE, LEED AP</h3>
+        <p>Director|Engineering and Construvtion</p></div>
+  </div>
+      <div class="col"><a href="#" class="btn btn-primary">VIEW TEAM</a></div>
+    </div>
+  </div>
+  <div class="container">
+  <div class="d-flex align-items-center">
+    <div class="flex-grow-1 ms-3">
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Consulting</h5>
+          <ul>
+            <li>Site selection and planning</li>
+            <li>Code review and compliance</li>
+            <li>Feasibility studies</li>
+            <li>Energy saving studies</li>
+            <li>Strategic planning</li>
+            <li>Value Engineering</li>
+            <li>Mechnical intergrity Support</li>
+            <li>Inspection Services</li>
+          </ul>
+          <h5 class="card-title">Process Engineering</h5>
+          <ul>
+            <li>process improvements</li>
+            <li>Troubleshooting and debottlenecking</li>
+            <li>Technology review & selection</li>
+            <li>Heat and material balance</li>
+            <li>PFD and P &ID preparation</li>
+            <li>Process safety review</li>
+            <li>Equipment sizing and Specification</li>
+            <li>Relief system sizing</li>
+            <li>Flow and pressure drop calculations</li>
+
+          </ul>
+          
+          
+        </div>
+      </div>
+    </div>
+    <div class="container-end">
+
+    <div class="flex-shrink-0">
+      <img src="https://static.wixstatic.com/media/4c1a6f_d07b6a45d51b423aa700dbebeac39d55~mv2.jpg/v1/fill/w_431,h_251,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/Picture1.jpg" width="500" height="250"> 
+  </div><figcaption class="figure-caption text-justify"><p>Tumkey delivery of Two Stainless steel wastewater </p>
+  <p>pretreatment reactor Tanks</p></figcaption>
+  <br><br><br>
+    <div class="flex-shrink-0">
+      <img src="https://5.imimg.com/data5/TC/FI/MY-4098674/etp-to-ro-zero-discharge-plant-500x500.jpg" width="500" height="250"> 
+      <figcaption class="figure-caption text-justify"><p>Specification and Turnkey Delivery of Two Catalytic Oxidizer System</p>
+      <p>to Remove Volatile Organic Compounds from Emissions</p></figcaption>
+  </div>
+</div>
+  </div><br>
+  <div class="d-flex align-items-center">
+    <div class="flex-shrink-0">
+      <img src="https://linquipequipment.s3.us-west-2.amazonaws.com/308252/equipment_308252_0b878581d811516aaa29c63a189234c1b43b3405.jpg" width="600" height="350">
+      <figcaption class="figure-caption text-justify"><p>Specification, Design Engineering and Startup Support for </p>
+        <p>Fluidized Bed Dry Lime Scrubber System</p></figcaption>
+    </div>
+    <div class="flex-grow-1 ms-3">
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Mechanical Engineering</h5>
+          <ul>
+            <li>General equalpment arrangement</li>
+            <li>Utility system design</li>
+            <li>Piping and insustrial ventilation design</li>
+            <li>Equipment Specification</li>
+            <li>Construction drawings</li>
+          </ul>
+          <h5 class="card-title">Electricaal Engineering</h5>
+          <ul>
+            <li>load analysis</li>
+            <li>power distribution design</li>
+            <li>control system and wiring design</li>
+            <li>Single line diagram</li>
+            <li>Arc flash coordination analysis</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div><br><br>
+  <div class="d-flex align-items-center">
+    
+    <div class="flex-grow-1 ms-3">
+      <div class="card" style="width: 25rem;">
+        <div class="card-body">
+          <h5 class="card-title">Structural Engineering</h5>
+          <ul>
+            <li>Existing structure evaluation</li>
+            <li>Foundation design</li>
+            <li>Steel structure and support design</li>
+          </ul>
+          <h5 class="card-title">Construction</h5>
+          <ul>
+          <li>Turnkey Design Build delivery</li>
+          <li>Owners Representative</li>
+          <li>Construction Management</li>
+          <li>Contract bidding and evaluation</li>
+          <li>Onsite construction supervision</li>
+        </ul>
+
+        </div>
+      </div>
+    </div>
+    <div class="flex-shrink-0">
+      <img src="https://5.imimg.com/data5/SELLER/Default/2021/6/KV/MD/WY/1081618/ammann-asphalt-batch-mix-plant-spare-parts-ammann-hot-mix-plant-spare-parts-500x500.jpg" width="500" height="300"> 
+      <figcaption class="figure-caption text-justify"><p>Process,Mechanical,Electrical,Controls Engineering and  </p>
+        <p>Commissioning Support for a Replacemrnt Hot Melt Asphalt Batch Plant </p></figcaption>
+    </div>
+    
+  </div>
+  <footer class="footer">
+  <nav class="navbar bg-white">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <div class="container-xl">
+        <img src="https://media.glassdoor.com/sqll/726915/ies-engineers-squarelogo-1463052674519.png"  alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+      </div>
+      </a>
+      <div class="col-9">
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" style="color: #000;" >Home</a>
+          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #000;">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="color: #000;">Services</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #000;">Carreers</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#" style="color: #000;">Contact</a>
+          </li>
+      </ul>
+    </div>
+      <ul>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="light" class="bi bi-facebook" viewBox="0 0 16 16">
+        <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+        <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+      </svg>
+      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="20" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+        <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+      </svg>
+    </ul>
+    </div>
+  </nav>
+</footer>
+</body>
+</html>
