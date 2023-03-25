@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <!-- CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </head>
+  <style>
+    .nav-item{ 
+      font-family: 'Times New Roman', Times, serif;
+      font-size: 20px;
+    }
+    .paragraph1{
+      font-size: 40px;
+      color: blue;
+    }
+    .paragraph2{
+      font-size: 40px;
+      color: black;
+    }
+    .frame{
+      position: absolute;
+      right: 100px;
+    left: 400px;
+    top: 550px;
+    padding: 10px;
+    font-size: 16px;
+    height: 40px;
+    width: 800px;
+    font-weight: bold;
+    }
+    .card-header{
+      color: blueviolet;
+      font-size: 30px;
+    }
+    .card-title{
+      color: blueviolet;
+      font-size: 30px;
+    }
+
+  </style>
+<body>
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <div class="container-xl">
+            <img src="https://media.glassdoor.com/sqll/726915/ies-engineers-squarelogo-1463052674519.png"  alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+          </div>
+          </a>
+          <div class="col-8">
+            <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#" style="color: #000;" >Home</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #000;">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" style="color: #000;">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">Carreers</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">Contact</a>
+              </li>
+          </ul>
+        </div>
+          <ul>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+            <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+            <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+            <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+          </svg>
+        </ul>
+        </div>
+      </nav>
+      <img src="https://fadack.com/wp-content/uploads/2020/05/96178490482141.jpg"  width="1400" height="30"" class="img-fluid" alt="inovoice"><br>
+      <div class="container-fluid">
+      <div> <div class="row row-cols-4"><div class="col" ><hr class="border border-dark border-3 "></div></div>
+      <div class="paragraph1"> <p>Senior Staff</p></div>
+        <div class="paragraph2"><p>Robert Deluca</p></div>
+        <div><button type="button" class="btn btn-success"><svg xmlns="http://www.w3.org/2000/svg"  width="50" height="20" fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z"/>
+        </svg>send Email</button></div><br>
+        <div class="d-flex align-items-center">
+          <div class="flex-shrink-0">
+            <div class="card" style="width: 23rem;">
+              <div class="card-body">
+                <h5 class="card-title">Areas of Expertise</h5>
+                <ul>
+                  <li>development of Occupational Exposure Limits(OELs/ASLs/OHCs)</li>
+                  <li>Environmental Assesment for Pharmaceuticals</li>
+                  <li>Impurity Assessments</li>
+                  <li>Predicted No Effect Concentrations (PNECs)</li>
+                  <li>Safety Data Sheets (GHS)</li>
+                </ul>
+              </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       
+
+        <nav class="navbar bg-light">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+              <div class="container-xl">
+              <img src="https://media.glassdoor.com/sqll/726915/ies-engineers-squarelogo-1463052674519.png"  alt="Logo" width="150" height="100" class="d-inline-block align-text-top">
+            </div>
+            </a>
+            <div class="col-8">
+              <ul class="nav justify-content-end">
+              <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#" style="color: #000;" >Home</a>
+                </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">About Us</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" style="color: #000;">Services</a>
+              </li>
+              <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #000;">Carreers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#" style="color: #000;">Contact</a>
+                </li>
+            </ul>
+            <hr>
+          </div>
+          
+            <ul>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-info-square-fill" viewBox="0 0 16 16">
+              <path d="M0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm8.93 4.588-2.29.287-.082.38.45.083c.294.07.352.176.288.469l-.738 3.468c-.194.897.105 1.319.808 1.319.545 0 1.178-.252 1.465-.598l.088-.416c-.2.176-.492.246-.686.246-.275 0-.375-.193-.304-.533L8.93 6.588zM8 5.5a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/>
+            </svg>
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="25" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </ul>
+          </div>
+        </nav>
+  </body>
+</html>
